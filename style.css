@@ -1,0 +1,119 @@
+body {
+    font-family: 'Times New Roman', serif-fonts;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #724d6e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #444;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #724d6e;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+}
+
+th, td {
+    padding: 10px 15px; 
+    text-align: center; 
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #f4f4f9; 
+}
+
+td {
+    background-color: #ffffff; 
+}
+
+
+table {
+    border-spacing: 0 10px; 
+}
+a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    color: #f4f4f9;
+}
+header h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+button, input[type="submit"] {
+    background-color: #724d6e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #5a3c58;
+}
+ul.list-group {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul.list-group li::before {
+    content: "\2022"; /* Bullet character */
+    color: #724d6e;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
