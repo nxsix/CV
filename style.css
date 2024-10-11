@@ -117,3 +117,9 @@ section {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
+/* new rule */
+a:focus,
+a:active {
+    text-decoration: underline;
+    outline: none;
+}
